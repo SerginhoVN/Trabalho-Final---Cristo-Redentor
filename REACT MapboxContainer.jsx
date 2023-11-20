@@ -18,7 +18,7 @@ export function MapContainer({ mapRef }) {
                 zoom: 11
             }}
             style={{width: "100vw", height: "100vh", position: "fixed", top:0, left:0 }}
-            mapStyle="mapbox://styles/mapbox/light-v11"
+            mapStyle="mapbox://styles/serginhovieira/clp6ak1wz00vy01nwfgt3106x"
             mapboxAccessToken={MAPBOX_TOKEN}
             doubleClickZoom={false}
             scrollZoom={false}
