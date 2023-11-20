@@ -6,7 +6,7 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 export function MapContainer({ mapRef }) {
     // zoom init: 11 - sem marcador
     // zoom final: 18.6
-    const MAPBOX_TOKEN="pk.eyJ1IjoiZ3VpY2hlbmciLCJhIjoiY2xqZjcxbHhqMGhxMzNldGM4MmhwN2UxayJ9.r1URtu4fAiCMB2qKgJYsZg"
+    const MAPBOX_TOKEN="pk.eyJ1Ijoic2VyZ2luaG92aWVpcmEiLCJhIjoiY2xscjdqOWM2MGlpajNobnJjczBna2VnbyJ9.UvdODn6RIho2IolIf8jWKA"
 
     return (
         <Map
