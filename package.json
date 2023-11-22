@@ -2,7 +2,7 @@
   "name": "teste-cristo",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://serginhovn.github.io/Trabalho-Final---Cristo-Redentor/",
+  "homepage": "https://serginhovn.github.io/cristo-redentor/",
   "type": "module",
   "scripts": {
     "dev": "vite",
