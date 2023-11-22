@@ -5,11 +5,3 @@ uma URL público e com o código aberto para avaliação.
 
 Neste projeto, desenvolvi um scrolltelling em React que apresente um modelo 3D do Cristo Redentor mostrando a cidade do Rio de Janeiro e depois os arredores do Cristo com algumas informações em boxes.
 Utilizando as bibliotecas Mapbox GL, Three.js e a biblioteca ScrollTrigger, da GreenShock.
-
-# Instalação das dependências
-
-  npm install
-
-# Rodar localmente
-
-  npm run dev
