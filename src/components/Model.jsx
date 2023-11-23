@@ -5,7 +5,7 @@ export function Model({
   modelRef,
   
 }, props) {
-  const { nodes, materials } = useGLTF("cristo.gltf");
+  const { nodes, materials } = useGLTF("");
 
   return (
     <group ref={modelRef} {...props} dispose={null}>
@@ -83,4 +83,4 @@ export function BackDrop() {
   )
 }
 
-useGLTF.preload("cristo.gltf");
+useGLTF.preload("./public/cristo.gltf");
