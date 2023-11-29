@@ -83,4 +83,4 @@ export function BackDrop() {
   )
 }
 
-useGLTF.preload("./public/cristo.gltf");
+useGLTF.preload("./cristo.gltf");
