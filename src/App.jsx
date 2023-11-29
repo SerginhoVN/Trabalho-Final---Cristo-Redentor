@@ -345,6 +345,22 @@ function App() {
         </div>
       </section>
 
+      <section
+        id="animation-section"
+        className="flex w-full h-[100vh] items-center justify-center fixed top-0 left-0 -z-20 opacity-0"
+      >
+        <Canvas
+          dpr={[1, 1.5]}
+          camera={{ position: [0, 700, 0], fov: 32, rotation: [0, 0, 0] }}
+          className="touch-none bg-animation-wp bg-no-repeat bg-cover bg-center object-cover"
+        >
+          <CameraControls ref={cameraControlRef} />
+          {/* <primitive object={new THREE.AxesHelper(10)} /> */}
+          <Center>
+          </Center>
+        </Canvas>
+      </section>
+
       <Overlay ref={overlay} />
       <div
         id="finish-wp"
