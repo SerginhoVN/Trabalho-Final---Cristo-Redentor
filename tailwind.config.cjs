@@ -5,14 +5,12 @@ export default {
     extend: {
       backgroundImage: {
         // 'cristo-wp': 'url(/cristo-wp.jpg)',
-        "cristo-wp":
-          'linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("./src/assets/cristo-wp.jpg")',
-        "animation-wp":
-          'linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("./src/assets/animation-wp.jpeg")',
-        "rio-wp":
-          'linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("./src/assets/rio.jpeg")',
+        'cristo-wp': 'linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("./assets/cristo-wp.jpg")',
+        'animation-wp': 'linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("./assets/animation-wp.jpeg")',
+        'rio-wp': 'linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("./assets/rio.jpeg")',
       },
     },
   },
   plugins: [],
-};
+}
+
