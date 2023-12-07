@@ -357,6 +357,9 @@ function App() {
           <CameraControls ref={cameraControlRef} />
           {/* <primitive object={new THREE.AxesHelper(10)} /> */}
           <Center>
+          <Suspense fallback={null}>
+              <Model modelRef={modelRef} />
+           </Suspense>
           </Center>
         </Canvas>
       </section>
